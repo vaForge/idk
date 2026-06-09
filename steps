@@ -1,0 +1,6 @@
+prg2
+mvn compile
+mvn test
+mvn package
+
+prg3
