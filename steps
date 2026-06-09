@@ -29,3 +29,11 @@ gradle run
 prg5
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 localhost:8080
+
+prg6
+open http://localhost:8080
+create new item > pipeline
+pipeline definition > pipeline script from SCM
+SCM > Git
+repo URL > file:///home/<username>/devops/program6/JenkinsMavenDemo
+save then build now
