@@ -4,3 +4,8 @@ mvn test
 mvn package
 
 prg3
+gradle hello
+gradle build
+gradle run
+
+prg4
