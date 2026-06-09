@@ -37,3 +37,9 @@ pipeline definition > pipeline script from SCM
 SCM > Git
 repo URL > file:///home/<username>/devops/program6/JenkinsMavenDemo
 save then build now
+
+prg7
+cd ~/devops/program7
+cat hosts.ini
+cat setup.yml
+ansible-playbook -i hosts.ini setup.yml
