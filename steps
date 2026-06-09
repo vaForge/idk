@@ -9,3 +9,11 @@ gradle build
 gradle run
 
 prg4
+         maven part: 
+cd ~/devops/program4/HelloMaven
+mvn package
+java -cp target/HelloMaven-1.0-SNAPSHOT.jar com.example.App
+         gradle part:
+cd ~/devops/program4/HelloMavenGradle
+gradle build
+gradle run
